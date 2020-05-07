@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+body {
+    font-family: 'Nova Round', cursive;
+}
+
+a {
+    color: black;
+}
+
+.nav-link {
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    color: rgb(241,94,117);
+}
+
+.dropdown-item {
+    transition: all 0.3s;
+}
+
+.dropdown-item:hover {
+    color: rgb(241,94,117);
+}
+
+#navbarSupportedContent-2 .dropdown-item:active {
+    background: none;
+}
+
+.search-box {
+    height: 550px;
+    background-image: url(/img/backgound-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card {
+   margin-top: 2rem;
+   position: absolute;
+   max-width: 480px;
+   height: auto;
+}
+
+.menu1 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.menu1 p {
+   color: cornsilk;
+}
+
+.overlay {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%, rgba(66,57,62,1) 100%);
+}
+
+.menu1-link:hover {
+    text-decoration: none;
+}
+
+.menu1-link p {
+    transition: all 0.3s;
+}
+
+.menu1-link p:hover {
+    color: rgb(241,94,117); 
+}
+
+.Find-place-link button:hover {
+    background-color: rgb(92,198,218);
+    border-color: rgb(92,198,218);
+}
+
+.Aparment {
+    background-image: url(/img/content1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+
+.bedBreakfast {
+    background-image: url(/img/content2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Condo {
+    background-image: url(/img/content3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.House {
+    background-image: url(/img/content4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.Loft {
+    background-image: url(/img/content5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Studio {
+    background-image: url(/img/content6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+@media (max-width: 767.98px) {
+    .Aparment {
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .bedBreakfast {
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .Condo {
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .Studio {
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .Loft {
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .House {
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .trending-content {
+        width: 125px;
+        height: 125px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .menu1 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .Aparment {
+        max-width: 270px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .bedBreakfast {
+        max-width: 180px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .Condo {
+        max-width: 180px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .Studio {
+        max-width: 270px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .Loft {
+        max-width: 180px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .House {
+        max-width: 180px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .Aparment {
+        max-width: 330px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .bedBreakfast {
+        max-width: 250px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .Condo {
+        max-width: 250px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .Studio {
+        max-width: 330px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .Loft {
+        max-width: 250px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .House {
+        max-width: 250px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .menu1 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .Aparment {
+        max-width: 60%;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .bedBreakfast {
+        max-width: 20%;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .Condo {
+        max-width: 20%;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .Studio {
+        max-width: 60%;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .Loft {
+        max-width: 20%;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .House {
+        max-width: 20%;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+
+    .trending-content {
+        width: 250px;
+        height: 250px;
+        border: 2px solid rgb(241,94,117);
+        border-radius: 5px;
+    }
+}
+
+.carousel {
+    border: 2px solid rgb(241,94,117);
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .slider {
+    display: flex;
+    height: 100%;
+    width: 400%;
+  }
+  .slider section {
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+  }
+  .left, .right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .arrow i {
+    font-size: 70px;
+    -webkit-user-select: none;
+    color: rgb(241,94,117);
+  }
+  .left {
+    left: 10px;
+  }
+  .right {
+    right: 10px;
+  }
+  .control ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%);
+  }
+  .control ul li {
+    width: 10px;
+    height: 10px;
+    background: rgb(241,94,117);
+    border: 2px solid rgb(241,94,117);
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .control ul li.selected {
+    background: transparent;
+  }
+
+.slider-content {
+      background-color: ivory;
+      border: 3px solid rgb(241,94,117);
+      border-radius: 50px;
+}
+  
+.slider1 {
+      background-image: url(/img/slider1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.slider2 {
+    background-image: url(/img/slider2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider3 {
+    background-image: url(/img/slider3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider4 {
+    background-image: url(/img/slider4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trending-content-1 {
+    background-image: url(/img/LA.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.trending-content-2 {
+    background-image: url(/img/miami.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.trending-content-3 {
+    background-image: url(/img/NY.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.trending-content-4 {
+    background-image: url(/img/san-francisco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.trending-content {
+    transition: all 0.3s;
+    transform: scale(1);
+}
+
+.trending-content:hover {
+    transform: scale(1.2);
+}
+
+.Trending-link:hover {
+    text-decoration: none;
+}
+
+.Trending-link p {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.Trending-link p:hover {
+    color: rgb(241,94,117); 
+}
+
+.footer-link {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.footer-link:hover {
+    color: rgb(92,198,218);
+    text-decoration: none;
+}

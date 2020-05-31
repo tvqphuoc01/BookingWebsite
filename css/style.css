@@ -167,6 +167,13 @@ a {
         height: 125px;
     }
 
+    .trending-content {
+        width: 250px;
+        height: 250px;
+        border: 2px solid rgb(241,94,117);
+        border-radius: 5px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -235,6 +242,13 @@ a {
         margin-left: 15px;
         padding: 0px;
     }
+
+    .trending-content {
+        width: 250px;
+        height: 250px;
+        border: 2px solid rgb(241,94,117);
+        border-radius: 5px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -296,6 +310,13 @@ a {
         margin-right: 15px;
         margin-left: 15px;
         padding: 0px;
+    }
+
+    .trending-content {
+        width: 250px;
+        height: 250px;
+        border: 2px solid rgb(241,94,117);
+        border-radius: 5px;
     }
 }
 

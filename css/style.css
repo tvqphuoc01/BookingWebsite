@@ -16,6 +16,8 @@ a {
 }
 
 .dropdown-item {
+    display: flex;
+    justify-content: center;
     transition: all 0.3s;
 }
 
@@ -548,4 +550,9 @@ a {
 .footer-link:hover {
     color: rgb(92,198,218);
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
 }

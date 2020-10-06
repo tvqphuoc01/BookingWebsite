@@ -31,7 +31,7 @@ a {
 
 .search-box {
     height: 550px;
-    background-image: url(/img/backgound-1.jpg);
+    background-image: url(../img/backgound-1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@ a {
 }
 
 .Aparment {
-    background-image: url(/img/content1.jpg);
+    background-image: url(../img/content1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -85,35 +85,35 @@ a {
 
 
 .bedBreakfast {
-    background-image: url(/img/content2.jpg);
+    background-image: url(../img/content2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .Condo {
-    background-image: url(/img/content3.jpg);
+    background-image: url(../img/content3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .House {
-    background-image: url(/img/content4.jpg);
+    background-image: url(../img/content4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
 }
 
 .Loft {
-    background-image: url(/img/content5.jpg);
+    background-image: url(../img/content5.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .Studio {
-    background-image: url(/img/content6.jpg);
+    background-image: url(../img/content6.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -465,56 +465,56 @@ a {
 }
   
 .slider1 {
-      background-image: url(/img/slider1.jpg);
+      background-image: url(../img/slider1.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
 }
 
 .slider2 {
-    background-image: url(/img/slider2.jpg);
+    background-image: url(../img/slider2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .slider3 {
-    background-image: url(/img/slider3.jpg);
+    background-image: url(../img/slider3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .slider4 {
-    background-image: url(/img/slider4.jpg);
+    background-image: url(../img/slider4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .trending-content-1 {
-    background-image: url(/img/LA.jpg);
+    background-image: url(../img/LA.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .trending-content-2 {
-    background-image: url(/img/miami.jpg);
+    background-image: url(../img/miami.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .trending-content-3 {
-    background-image: url(/img/NY.jpg);
+    background-image: url(../img/NY.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .trending-content-4 {
-    background-image: url(/img/san-francisco.jpg);
+    background-image: url(../img/san-francisco.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
